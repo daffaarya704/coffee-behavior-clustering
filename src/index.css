@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-amber-50 text-amber-950; }
+h1, h2, h3 { @apply font-semibold; }
+.card { @apply bg-white rounded-2xl shadow p-4; }
+.kpi { @apply text-2xl font-bold; }
+.table { @apply w-full border-collapse; }
+.table th, .table td { @apply border p-2; }
+.table thead tr { @apply bg-amber-100; }
